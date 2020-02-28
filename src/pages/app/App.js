@@ -8,11 +8,9 @@ import Main from '@pages/main';
 const App = () => {
   return (
     <>
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={Main} />
-        </Switch>
-      </BrowserRouter>
+      <div className="container-fluid">
+        <Main />
+      </div>
     </>
   );
 };

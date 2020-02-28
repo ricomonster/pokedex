@@ -1,8 +1,5 @@
 // Dependencies
 import useGetRequest from './useGetRequest';
+import usePrevious from './usePrevious';
 
-const Hooks = {
-  useGetRequest,
-};
-
-export default Hooks;
+export { useGetRequest, usePrevious };
